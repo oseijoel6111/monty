@@ -69,6 +69,7 @@ void fSwap(stack_t **head, unsigned int counters);
 void fAdd(stack_t **head, unsigned int counters);
 void fNop(stack_t **head, unsigned int counters);
 void fQueue(stack_t **head, unsigned int counters);
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 void fStack(stack_t **head, unsigned int counters);
 #endif
 
